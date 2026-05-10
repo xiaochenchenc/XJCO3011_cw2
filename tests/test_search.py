@@ -30,11 +30,17 @@ def test_print_word_contains_urls():
     out = print_word(idx, "good")
     assert "https://a.example" in out
     assert "https://b.example" in out
+    assert "document frequency (df)" in out.lower()
+    assert "total term frequency" in out.lower()
+    assert "tf (frequency on this page)" in out.lower()
 
 
 def test_print_word_unknown():
     idx = _tiny_index()
-    assert "no occurrences" in print_word(idx, "nope")
+    out = print_word(idx, "nope")
+    assert "document frequency (df)" in out.lower()
+    assert "0 page(s)" in out or "0 page" in out
+    assert "no postings" in out.lower()
 
 
 def test_tokens_for_find_arguments_joins_commas():

@@ -11,7 +11,7 @@ if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
 
 from crawler import CrawlError, crawl_quotes_site  # noqa: E402
-from indexer import build_index, load_index, save_index  # noqa: E402
+from indexer import build_index, load_index, save_index, tokenise  # noqa: E402
 from search import find_pages, print_word, tokens_for_find_arguments, tokens_for_print_argument  # noqa: E402
 
 DEFAULT_INDEX_PATH = Path(__file__).resolve().parents[1] / "data" / "index.json"
@@ -37,11 +37,24 @@ def run_shell(index_path: Path = DEFAULT_INDEX_PATH) -> None:
         if cmd in ("quit", "exit"):
             break
         if cmd == "build":
+            print("Crawl log (politeness ≥6s between requests):")
             try:
-                pages = crawl_quotes_site()
+
+                def _progress(n: int, url: str, n_chars: int) -> None:
+                    print(f"  [{n:>3}] {url}")
+                    print(f"        extracted text: {n_chars} character(s)")
+
+                pages = crawl_quotes_site(progress_hook=_progress)
             except CrawlError as exc:
                 print(f"Crawl failed: {exc}")
                 continue
+            print()
+            print("Indexed page list (same order as crawl):")
+            for i, p in enumerate(pages, 1):
+                n_tokens = len(tokenise(p.text))
+                print(f"  {i:>3}. {p.url}")
+                print(f"        token count (after tokenisation): {n_tokens}")
+            print()
             index = build_index(pages)
             try:
                 save_index(index, index_path)
@@ -88,8 +101,9 @@ def run_shell(index_path: Path = DEFAULT_INDEX_PATH) -> None:
             if not urls:
                 print("(no pages)")
             else:
+                print(f"Matched {len(urls)} page(s) (AND over {len(q_tokens)} term(s): {q_tokens}):")
                 for u in urls:
-                    print(u)
+                    print(f"  {u}")
         else:
             print(f"Unknown command: {cmd!r}. {_usage_hint()}")
 

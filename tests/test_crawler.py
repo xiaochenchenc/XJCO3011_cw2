@@ -8,10 +8,14 @@ import requests
 from crawler import (
     POLITENESS_SECONDS,
     CrawlError,
+    canonicalise_crawl_url,
+    canonicalise_url,
     crawl_quotes_site,
     discover_next_page_url,
+    extract_discovered_urls,
     extract_visible_text,
     fetch_page,
+    is_allowed_crawl_path,
 )
 
 
@@ -81,6 +85,49 @@ def test_crawl_request_error_wrapped():
 
     with pytest.raises(CrawlError, match="Request failed"):
         crawl_quotes_site(session=BoomSession(), sleep_fn=lambda s: None)
+
+
+def test_canonicalise_url_strips_trailing_slash_on_paths():
+    assert canonicalise_url("https://quotes.toscrape.com/tag/love/") == "https://quotes.toscrape.com/tag/love"
+
+
+def test_canonicalise_crawl_url_tag_first_page_uses_page_1():
+    assert canonicalise_crawl_url("https://quotes.toscrape.com/tag/books") == (
+        "https://quotes.toscrape.com/tag/books/page/1"
+    )
+    assert canonicalise_crawl_url("https://quotes.toscrape.com/tag/books/page/1") == (
+        "https://quotes.toscrape.com/tag/books/page/1"
+    )
+
+
+def test_is_allowed_crawl_path():
+    assert is_allowed_crawl_path("/")
+    assert is_allowed_crawl_path("/page/2")
+    assert is_allowed_crawl_path("/author/Albert-Einstein")
+    assert is_allowed_crawl_path("/tag/change/page/1")
+    assert is_allowed_crawl_path("/tag/humor/page/2")
+    assert not is_allowed_crawl_path("/tag/change")
+    assert not is_allowed_crawl_path("/tag/humor/extra")
+    assert not is_allowed_crawl_path("/login")
+    assert not is_allowed_crawl_path("/author")
+
+
+def test_extract_discovered_urls_filters_paths():
+    html = """
+    <a href="/author/Albert-Einstein">a</a>
+    <a href="/tag/love/">t</a>
+    <a href="/page/2/">n</a>
+    <a href="/tag/humor/page/2/">p</a>
+    <a href="https://evil.example/x">e</a>
+    <a href="/login">l</a>
+    """
+    u = extract_discovered_urls(html, "https://quotes.toscrape.com/")
+    assert canonicalise_url("https://quotes.toscrape.com/author/Albert-Einstein") in u
+    assert canonicalise_crawl_url("https://quotes.toscrape.com/tag/love") in u
+    assert canonicalise_url("https://quotes.toscrape.com/page/2") in u
+    assert canonicalise_url("https://quotes.toscrape.com/tag/humor/page/2") in u
+    assert all("evil" not in x for x in u)
+    assert all("login" not in x for x in u)
 
 
 def test_fetch_page_uses_session(monkeypatch):
