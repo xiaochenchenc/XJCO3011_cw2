@@ -287,3 +287,11 @@ Remove-Item Env:HTTP_PROXY, Env:HTTPS_PROXY, Env:http_proxy, Env:https_proxy -Er
 Try **`py -3`** (Windows launcher) or ensure Python is on your `PATH`.
 
 ---
+
+## 11. Declared use of ChatGPT (generative AI)
+
+1. **Understanding the coursework brief.** I used ChatGPT to help **explain the official Coursework 2 requirements** in plain language: what the search tool must do (crawl, inverted index, four shell commands), the **6-second politeness** rule, **case-insensitive** search, recommended libraries, and the **submission deadline (DDL)** and **deliverables**—including the **5-minute video**, **public GitHub URL**, **compiled index file**, and **Minerva** submission format, plus reminders such as **GenAI declaration and critical reflection** in the video. I treated ChatGPT as a study aid and **verified everything against the PDF / Minerva**; any mistake in interpretation remains my responsibility.
+
+2. **Understanding breadth-first search (BFS) for crawling this site.** I used ChatGPT for a **structured explanation of BFS** applied to **web crawling**: using a **queue** of URLs to visit, a **visited** set to avoid duplicate fetches, **discovering** new same-host links from each downloaded page, and why BFS is a natural fit for **systematically covering** listing pages, then **author** and **tag** pages linked from quotes.toscrape.com. That helped me reason about my own design before coding. The **actual crawler** in `crawler.py` was implemented, debugged, and validated with **pytest** by me—not copy-pasted without understanding.
+
+For the formal **critical evaluation** of benefits, limits, and learning impact of using ChatGPT, see my **video demonstration** as required by the assessment brief.
