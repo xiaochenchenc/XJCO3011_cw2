@@ -19,7 +19,7 @@ This repository implements a **Python command-line search tool** for the target 
 
 | Goal | Description |
 |------|-------------|
-| **Crawl** | Breadth-first crawl of `quotes.toscrape.com`: quote **listings** (`/` and `/page/N`), **author** pages (`/author/...`), and **tag** listings (`/tag/name/page/N`). Bare `/tag/name` links are normalised to `/tag/name/page/1` to avoid duplicate documents. Only the target host is followed; off-site pagination raises an error. |
+| **Crawl** | Breadth-first crawl of `quotes.toscrape.com`: quote **listings** (`/` and `/page/N` for `N≥2`; **`/page/1` is folded to `/`** because it duplicates the home listing), **author** pages (`/author/...`), and **tag** listings (`/tag/name/page/N`). Bare `/tag/name` links are normalised to `/tag/name/page/1` to avoid duplicate documents. Only the target host is followed; off-site pagination raises an error. |
 | **Index** | While processing each page, the tool builds an inverted index: *token → URL →* `{ frequency, positions }`, where `positions` are 0-based indices in that page’s token stream. |
 | **Search** | Interactive shell commands **`build`**, **`load`**, **`print`**, and **`find`** (see §4). |
 | **Output** | Default compiled index path: **`data/index.json`**. |
@@ -38,17 +38,7 @@ This repository implements a **Python command-line search tool** for the target 
 
 ## 3. Installation and setup
 
-### 3.1 Clone and enter the project root
-
-You must run commands from the directory that contains `src/`, `tests/`, `data/`, and `requirements.txt`.
-
-```bash
-cd path/to/cw2
-```
-
-*(On Windows, if the path contains spaces, use quotes or `Set-Location -LiteralPath "..."` in PowerShell.)*
-
-### 3.2 Virtual environment (recommended, not mandatory)
+### Virtual environment (recommended, not mandatory)
 
 ```bash
 python -m venv .venv
@@ -245,6 +235,95 @@ python -m pytest tests/test_crawler.py
 
 All tests should pass before submission.
 
+### 8.2 Manual CLI checks (wrong commands and expected messages)
+
+You can verify the interactive shell by running **`python src/main.py`** and typing the lines below. **Only the first word of each line is treated as the command name**, using **`.lower()`** — so `Print` and `print` are the same, but a **misspelled** command name is not recognised.
+
+**Prerequisite for `print` / `find` examples (except where noted):** run **`build`** or **`load`** first so an index is in memory. If you run `print` or `find` before that, the program prints:
+
+```text
+No index in memory; run load or build first.
+```
+
+---
+
+#### A. Misspelled command (e.g. `Printt` instead of `print`)
+
+Input:
+
+```text
+> Printt
+```
+
+Output (exact):
+
+```text
+Unknown command: 'printt'. Commands: build | load | print <word> | find <word> [<word> ...] | quit
+```
+
+The first token is lower-cased to `printt`, which does not match `build`, `load`, `print`, or `find`, so the shell reports an **unknown command** and repeats the usage line.
+
+---
+
+#### B. `print` with no word (missing second argument)
+
+Input:
+
+```text
+> print
+```
+
+Output (exact):
+
+```text
+Usage: print <word>
+```
+
+---
+
+#### C. `print` for a word that does not exist in the index (e.g. `NoSuchMessage`)
+
+Assume the index is loaded and the token **`NoSuchMessage`** never appears in the corpus.
+
+Input:
+
+```text
+> print NoSuchMessage
+```
+
+Output (exact; the horizontal rules use the Unicode box-drawing character **U+2500** repeated 58 times):
+
+```text
+──────────────────────────────────────────────────────────
+Inverted index lookup  term='NoSuchMessage'
+──────────────────────────────────────────────────────────
+Corpus-level metrics:
+  • document frequency (df):     0 page(s)
+  • total term frequency (Σtf): 0 occurrence(s) in corpus
+  (no postings for this term)
+──────────────────────────────────────────────────────────
+```
+
+So the tool still prints **structured metrics** with **df = 0** and explains that there are **no postings** for that term.
+
+---
+
+#### D. Related: `find` when nothing matches
+
+If you run **`find NoSuchMessage`** (or any query whose tokens are not all present in the corpus), the output is:
+
+```text
+(no pages)
+```
+
+If you run **`find`** with no arguments at all:
+
+```text
+Usage: find <word> [<word> ...]
+```
+
+*(If the query contains only punctuation so that no tokens remain, the message is `(empty query after removing punctuation; add at least one word)`.)*
+
 ---
 
 ## 9. Repository layout (per assessment brief)
@@ -261,7 +340,7 @@ repository-root/
     test_indexer.py
     test_search.py
   data/
-    index.json          ← produced by `build` (submit for coursework)
+    index.json 
   requirements.txt
   README.md
   pytest.ini
@@ -271,6 +350,7 @@ repository-root/
 
 ## 10. Troubleshooting
 
+![PYTEST](img\test.png)
 ### 10.1 `build` fails with `ProxyError`
 
 `requests` may pick up **`HTTP_PROXY` / `HTTPS_PROXY`** or a broken system proxy. By default this project uses a `requests.Session` with **`trust_env=False`** so **environment proxy variables are ignored** and the client connects **directly** to `quotes.toscrape.com`.
@@ -291,7 +371,7 @@ Try **`py -3`** (Windows launcher) or ensure Python is on your `PATH`.
 ## 11. Declared use of ChatGPT (generative AI)
 
 1. **Understanding the coursework brief.** I used ChatGPT to help **explain the official Coursework 2 requirements** in plain language: what the search tool must do (crawl, inverted index, four shell commands), the **6-second politeness** rule, **case-insensitive** search, recommended libraries, and the **submission deadline (DDL)** and **deliverables**—including the **5-minute video**, **public GitHub URL**, **compiled index file**, and **Minerva** submission format, plus reminders such as **GenAI declaration and critical reflection** in the video. I treated ChatGPT as a study aid and **verified everything against the PDF / Minerva**; any mistake in interpretation remains my responsibility.
+![Using ChatGPT to understand Coursework requirments](img\gpt2.png)
 
 2. **Understanding breadth-first search (BFS) for crawling this site.** I used ChatGPT for a **structured explanation of BFS** applied to **web crawling**: using a **queue** of URLs to visit, a **visited** set to avoid duplicate fetches, **discovering** new same-host links from each downloaded page, and why BFS is a natural fit for **systematically covering** listing pages, then **author** and **tag** pages linked from quotes.toscrape.com. That helped me reason about my own design before coding. The **actual crawler** in `crawler.py` was implemented, debugged, and validated with **pytest** by me—not copy-pasted without understanding.
-
-For the formal **critical evaluation** of benefits, limits, and learning impact of using ChatGPT, see my **video demonstration** as required by the assessment brief.
+![Using ChatGPT to understand BFS](img\gpt1.png)

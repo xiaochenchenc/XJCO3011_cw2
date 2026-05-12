@@ -100,6 +100,11 @@ def test_canonicalise_crawl_url_tag_first_page_uses_page_1():
     )
 
 
+def test_canonicalise_crawl_url_main_listing_page_1_folds_to_home():
+    assert canonicalise_crawl_url("https://quotes.toscrape.com/page/1") == "https://quotes.toscrape.com/"
+    assert canonicalise_crawl_url("https://quotes.toscrape.com/page/10") == "https://quotes.toscrape.com/page/10"
+
+
 def test_is_allowed_crawl_path():
     assert is_allowed_crawl_path("/")
     assert is_allowed_crawl_path("/page/2")

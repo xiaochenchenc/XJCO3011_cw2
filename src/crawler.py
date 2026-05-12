@@ -49,12 +49,15 @@ def canonicalise_crawl_url(url: str) -> str:
     """
     URL identity for crawling and de-duplication.
 
-    Tag first pages exist as both ``/tag/name`` and ``/tag/name/page/1`` (same content).
-    We always use the ``/tag/name/page/1`` form so they are not indexed twice.
+    - **Main listing:** ``/page/1`` is the same first page as ``/``; we fold it to ``/``.
+    - **Tags:** ``/tag/name`` and ``/tag/name/page/1`` are the same; we always use ``.../page/1``.
     """
     u = canonicalise_url(url)
     p = urlparse(u)
     path = p.path or "/"
+    if re.fullmatch(r"/page/1", path):
+        u = urlunparse((p.scheme, p.netloc, "/", "", "", ""))
+        return canonicalise_url(u)
     if re.fullmatch(r"/tag/[^/]+", path):
         new_path = f"{path}/page/1"
         u = urlunparse((p.scheme, p.netloc, new_path, "", "", ""))

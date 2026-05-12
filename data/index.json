@@ -517,14 +517,6 @@
           286
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 3,
-        "positions": [
-          0,
-          72,
-          91
-        ]
-      },
       "https://quotes.toscrape.com/page/3": {
         "frequency": 2,
         "positions": [
@@ -1967,13 +1959,6 @@
           55
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          1,
-          30
-        ]
-      },
       "https://quotes.toscrape.com/tag/heartbreak/page/1": {
         "frequency": 1,
         "positions": [
@@ -2353,14 +2338,6 @@
           80,
           156,
           273
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 3,
-        "positions": [
-          2,
-          66,
-          75
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -2870,13 +2847,6 @@
           46
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          3,
-          39
-        ]
-      },
       "https://quotes.toscrape.com/tag/fate/page/1": {
         "frequency": 1,
         "positions": [
@@ -3090,13 +3060,6 @@
         "frequency": 1,
         "positions": [
           4
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          4,
-          192
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -3346,12 +3309,6 @@
           240
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          5
-        ]
-      },
       "https://quotes.toscrape.com/author/W-C-Fields": {
         "frequency": 1,
         "positions": [
@@ -3582,17 +3539,6 @@
         "frequency": 1,
         "positions": [
           204
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 6,
-        "positions": [
-          6,
-          13,
-          31,
-          94,
-          165,
-          226
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -4355,23 +4301,6 @@
         "frequency": 1,
         "positions": [
           18
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 12,
-        "positions": [
-          7,
-          32,
-          65,
-          69,
-          74,
-          78,
-          120,
-          123,
-          166,
-          216,
-          227,
-          245
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -5435,21 +5364,6 @@
           260
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 10,
-        "positions": [
-          8,
-          70,
-          79,
-          103,
-          147,
-          153,
-          206,
-          214,
-          218,
-          241
-        ]
-      },
       "https://quotes.toscrape.com/page/3": {
         "frequency": 6,
         "positions": [
@@ -6408,12 +6322,6 @@
         "positions": [
           9
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          9
-        ]
       }
     },
     "of": {
@@ -6818,14 +6726,6 @@
           254,
           278,
           288
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 3,
-        "positions": [
-          10,
-          149,
-          155
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -7770,15 +7670,6 @@
           19
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 4,
-        "positions": [
-          11,
-          19,
-          33,
-          45
-        ]
-      },
       "https://quotes.toscrape.com/tag/courage/page/1": {
         "frequency": 2,
         "positions": [
@@ -7873,14 +7764,6 @@
           29
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 3,
-        "positions": [
-          12,
-          20,
-          29
-        ]
-      },
       "https://quotes.toscrape.com/tag/thought/page/1": {
         "frequency": 1,
         "positions": [
@@ -7938,12 +7821,6 @@
         ]
       },
       "https://quotes.toscrape.com/tag/world/page/1": {
-        "frequency": 1,
-        "positions": [
-          14
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
         "frequency": 1,
         "positions": [
           14
@@ -8122,18 +7999,6 @@
         "frequency": 1,
         "positions": [
           133
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 7,
-        "positions": [
-          15,
-          93,
-          107,
-          129,
-          140,
-          169,
-          177
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -8453,12 +8318,6 @@
           16
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          16
-        ]
-      },
       "https://quotes.toscrape.com/author/Garrison-Keillor": {
         "frequency": 1,
         "positions": [
@@ -8533,13 +8392,6 @@
         "frequency": 1,
         "positions": [
           17
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          17,
-          243
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -8627,12 +8479,6 @@
         ]
       },
       "https://quotes.toscrape.com/tag/world/page/1": {
-        "frequency": 1,
-        "positions": [
-          18
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
         "frequency": 1,
         "positions": [
           18
@@ -8995,21 +8841,6 @@
         "positions": [
           5,
           262
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 10,
-        "positions": [
-          21,
-          47,
-          81,
-          110,
-          135,
-          157,
-          184,
-          204,
-          233,
-          250
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -10137,14 +9968,6 @@
           22
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 3,
-        "positions": [
-          22,
-          82,
-          158
-        ]
-      },
       "https://quotes.toscrape.com/page/3": {
         "frequency": 2,
         "positions": [
@@ -10362,14 +10185,6 @@
         "frequency": 1,
         "positions": [
           23
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 3,
-        "positions": [
-          23,
-          83,
-          159
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -10779,21 +10594,6 @@
         "frequency": 1,
         "positions": [
           24
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 10,
-        "positions": [
-          24,
-          51,
-          84,
-          113,
-          138,
-          160,
-          187,
-          208,
-          236,
-          253
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -11953,21 +11753,6 @@
           25
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 10,
-        "positions": [
-          25,
-          52,
-          85,
-          114,
-          139,
-          161,
-          188,
-          209,
-          237,
-          254
-        ]
-      },
       "https://quotes.toscrape.com/page/3": {
         "frequency": 9,
         "positions": [
@@ -12831,12 +12616,6 @@
           26
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          26
-        ]
-      },
       "https://quotes.toscrape.com/author/George-Eliot": {
         "frequency": 1,
         "positions": [
@@ -12886,12 +12665,6 @@
         "positions": [
           27
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          27
-        ]
       }
     },
     "thoughts": {
@@ -12920,12 +12693,6 @@
         ]
       },
       "https://quotes.toscrape.com/tag/world/page/1": {
-        "frequency": 1,
-        "positions": [
-          28
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
         "frequency": 1,
         "positions": [
           28
@@ -12965,13 +12732,6 @@
           3,
           23
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          34,
-          54
-        ]
       }
     },
     "harry": {
@@ -13005,12 +12765,6 @@
         "frequency": 1,
         "positions": [
           4
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          35
         ]
       },
       "https://quotes.toscrape.com/page/4": {
@@ -13242,13 +12996,6 @@
         "frequency": 1,
         "positions": [
           238
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          36,
-          201
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -13708,12 +13455,6 @@
           6
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          37
-        ]
-      },
       "https://quotes.toscrape.com/author/Garrison-Keillor": {
         "frequency": 5,
         "positions": [
@@ -13832,14 +13573,6 @@
         "frequency": 1,
         "positions": [
           106
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 3,
-        "positions": [
-          38,
-          172,
-          180
         ]
       },
       "https://quotes.toscrape.com/tag/fate/page/1": {
@@ -14021,12 +13754,6 @@
           161
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          40
-        ]
-      },
       "https://quotes.toscrape.com/page/8": {
         "frequency": 1,
         "positions": [
@@ -14137,15 +13864,6 @@
         "frequency": 1,
         "positions": [
           88
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 4,
-        "positions": [
-          41,
-          56,
-          174,
-          182
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -14415,12 +14133,6 @@
           11
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          42
-        ]
-      },
       "https://quotes.toscrape.com/author/W-C-Fields": {
         "frequency": 1,
         "positions": [
@@ -14493,12 +14205,6 @@
         "frequency": 1,
         "positions": [
           42
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          43
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -14793,14 +14499,6 @@
           50
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 3,
-        "positions": [
-          44,
-          132,
-          175
-        ]
-      },
       "https://quotes.toscrape.com/page/3": {
         "frequency": 2,
         "positions": [
@@ -14974,13 +14672,6 @@
           15,
           22
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          46,
-          53
-        ]
       }
     },
     "j": {
@@ -15042,12 +14733,6 @@
         "frequency": 1,
         "positions": [
           75
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          48
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -15255,12 +14940,6 @@
           76
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          49
-        ]
-      },
       "https://quotes.toscrape.com/page/3": {
         "frequency": 1,
         "positions": [
@@ -15399,12 +15078,6 @@
         "frequency": 1,
         "positions": [
           77
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          50
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -15557,12 +15230,6 @@
         "frequency": 1,
         "positions": [
           77
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          55
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -15844,12 +15511,6 @@
         "frequency": 1,
         "positions": [
           370
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          57
         ]
       },
       "https://quotes.toscrape.com/tag/philosophy/page/1": {
@@ -16145,12 +15806,6 @@
           160
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          58
-        ]
-      },
       "https://quotes.toscrape.com/author/Ernest-Hemingway": {
         "frequency": 2,
         "positions": [
@@ -16278,13 +15933,6 @@
         "frequency": 1,
         "positions": [
           9
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          59,
-          200
         ]
       }
     },
@@ -16652,16 +16300,6 @@
           177,
           216,
           236
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 5,
-        "positions": [
-          60,
-          128,
-          145,
-          168,
-          176
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -17559,13 +17197,6 @@
           47
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          61,
-          88
-        ]
-      },
       "https://quotes.toscrape.com/page/3": {
         "frequency": 2,
         "positions": [
@@ -17797,12 +17428,6 @@
         "frequency": 1,
         "positions": [
           25
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          62
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -18072,14 +17697,6 @@
           37,
           65,
           116
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 3,
-        "positions": [
-          63,
-          87,
-          189
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -18504,12 +18121,6 @@
           91
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          64
-        ]
-      },
       "https://quotes.toscrape.com/page/3": {
         "frequency": 2,
         "positions": [
@@ -18926,13 +18537,6 @@
           248
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          67,
-          76
-        ]
-      },
       "https://quotes.toscrape.com/tag/authors/page/1": {
         "frequency": 1,
         "positions": [
@@ -19038,12 +18642,6 @@
           13
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          68
-        ]
-      },
       "https://quotes.toscrape.com/tag/writing/page/1": {
         "frequency": 1,
         "positions": [
@@ -19125,14 +18723,6 @@
           34
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 3,
-        "positions": [
-          71,
-          80,
-          89
-        ]
-      },
       "https://quotes.toscrape.com/author/Ralph-Waldo-Emerson": {
         "frequency": 1,
         "positions": [
@@ -19208,12 +18798,6 @@
         "frequency": 1,
         "positions": [
           270
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          73
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -19412,12 +18996,6 @@
           22
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          77
-        ]
-      },
       "https://quotes.toscrape.com/tag/heartbreak/page/1": {
         "frequency": 3,
         "positions": [
@@ -19581,14 +19159,6 @@
         "frequency": 1,
         "positions": [
           103
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 3,
-        "positions": [
-          86,
-          142,
-          212
         ]
       },
       "https://quotes.toscrape.com/tag/activism/page/1": {
@@ -19778,12 +19348,6 @@
         "positions": [
           35
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          90
-        ]
       }
     },
     "person": {
@@ -19815,12 +19379,6 @@
         "frequency": 1,
         "positions": [
           1
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          92
         ]
       },
       "https://quotes.toscrape.com/author/George-Carlin": {
@@ -19909,12 +19467,6 @@
         "positions": [
           4
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          95
-        ]
       }
     },
     "or": {
@@ -19991,12 +19543,6 @@
         "positions": [
           108,
           125
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          96
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -20174,12 +19720,6 @@
           6
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          97
-        ]
-      },
       "https://quotes.toscrape.com/author/Alexandre-Dumas-fils": {
         "frequency": 1,
         "positions": [
@@ -20325,12 +19865,6 @@
         "frequency": 1,
         "positions": [
           14
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          98
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -20693,12 +20227,6 @@
           107
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          99
-        ]
-      },
       "https://quotes.toscrape.com/author/Haruki-Murakami": {
         "frequency": 2,
         "positions": [
@@ -21016,15 +20544,6 @@
         "frequency": 1,
         "positions": [
           1
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 4,
-        "positions": [
-          100,
-          144,
-          183,
-          193
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -21439,12 +20958,6 @@
         "positions": [
           10
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          101
-        ]
       }
     },
     "in": {
@@ -21715,13 +21228,6 @@
           83,
           208,
           245
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          102,
-          230
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -22574,12 +22080,6 @@
           48
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          104
-        ]
-      },
       "https://quotes.toscrape.com/page/3": {
         "frequency": 1,
         "positions": [
@@ -22735,12 +22235,6 @@
           32
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          105
-        ]
-      },
       "https://quotes.toscrape.com/author/Ernest-Hemingway": {
         "frequency": 2,
         "positions": [
@@ -22860,12 +22354,6 @@
           28
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          106
-        ]
-      },
       "https://quotes.toscrape.com/page/3": {
         "frequency": 1,
         "positions": [
@@ -22951,12 +22439,6 @@
         "positions": [
           17
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          108
-        ]
       }
     },
     "stupid": {
@@ -22989,12 +22471,6 @@
         "positions": [
           18,
           96
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          109
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -23059,12 +22535,6 @@
         "frequency": 1,
         "positions": [
           223
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          111
         ]
       },
       "https://quotes.toscrape.com/tag/library/page/1": {
@@ -23192,12 +22662,6 @@
           224
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          112
-        ]
-      },
       "https://quotes.toscrape.com/tag/library/page/1": {
         "frequency": 1,
         "positions": [
@@ -23287,12 +22751,6 @@
         "frequency": 1,
         "positions": [
           24
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          115
         ]
       }
     },
@@ -23414,12 +22872,6 @@
         "frequency": 1,
         "positions": [
           24
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          116
         ]
       },
       "https://quotes.toscrape.com/tag/contentment/page/1": {
@@ -23702,12 +23154,6 @@
           179
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          117
-        ]
-      },
       "https://quotes.toscrape.com/author/Charles-M-Schulz": {
         "frequency": 1,
         "positions": [
@@ -23797,13 +23243,6 @@
         "frequency": 1,
         "positions": [
           59
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          118,
-          255
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -23957,12 +23396,6 @@
         "positions": [
           36
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          119
-        ]
       }
     },
     "beauty": {
@@ -23988,12 +23421,6 @@
         "frequency": 1,
         "positions": [
           38
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          121
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -24035,12 +23462,6 @@
         "positions": [
           39
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          122
-        ]
       }
     },
     "genius": {
@@ -24066,12 +23487,6 @@
         "frequency": 1,
         "positions": [
           41
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          124
         ]
       },
       "https://quotes.toscrape.com/page/6": {
@@ -24451,12 +23866,6 @@
           200,
           213,
           281
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          125
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -25441,13 +24850,6 @@
           15
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          126,
-          229
-        ]
-      },
       "https://quotes.toscrape.com/tag/activism/page/1": {
         "frequency": 4,
         "positions": [
@@ -25589,13 +24991,6 @@
           3
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          127,
-          167
-        ]
-      },
       "https://quotes.toscrape.com/author/George-Eliot": {
         "frequency": 1,
         "positions": [
@@ -25643,13 +25038,6 @@
           47,
           50
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          130,
-          133
-        ]
       }
     },
     "ridiculous": {
@@ -25669,12 +25057,6 @@
         "frequency": 1,
         "positions": [
           48
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          131
         ]
       }
     },
@@ -25701,12 +25083,6 @@
         "frequency": 1,
         "positions": [
           283
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          134
         ]
       }
     },
@@ -25762,12 +25138,6 @@
           225,
           550,
           581
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          136
         ]
       },
       "https://quotes.toscrape.com/tag/heartbreak/page/1": {
@@ -25867,12 +25237,6 @@
           582
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          137
-        ]
-      },
       "https://quotes.toscrape.com/tag/heartbreak/page/1": {
         "frequency": 1,
         "positions": [
@@ -25967,12 +25331,6 @@
         "frequency": 1,
         "positions": [
           189
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          141
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -26074,12 +25432,6 @@
           0
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          143
-        ]
-      },
       "https://quotes.toscrape.com/tag/philosophy/page/1": {
         "frequency": 1,
         "positions": [
@@ -26138,13 +25490,6 @@
         "positions": [
           3,
           9
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          146,
-          152
         ]
       },
       "https://quotes.toscrape.com/tag/courage/page/1": {
@@ -26223,13 +25568,6 @@
         "positions": [
           5,
           11
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          148,
-          154
         ]
       },
       "https://quotes.toscrape.com/author/Ernest-Hemingway": {
@@ -26367,13 +25705,6 @@
           155
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          150,
-          163
-        ]
-      },
       "https://quotes.toscrape.com/author/J-D-Salinger": {
         "frequency": 2,
         "positions": [
@@ -26450,12 +25781,6 @@
           49
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          151
-        ]
-      },
       "https://quotes.toscrape.com/author/Madeleine-LEngle": {
         "frequency": 1,
         "positions": [
@@ -26510,13 +25835,6 @@
           13,
           21
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          156,
-          164
-        ]
       }
     },
     "adulthood": {
@@ -26543,12 +25861,6 @@
         "positions": [
           19
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          162
-        ]
       }
     },
     "hated": {
@@ -26568,12 +25880,6 @@
         "frequency": 1,
         "positions": [
           5
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          170
         ]
       },
       "https://quotes.toscrape.com/author/W-C-Fields": {
@@ -26750,13 +26056,6 @@
         "positions": [
           20,
           52
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          171,
-          179
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -27330,15 +26629,6 @@
           79
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 4,
-        "positions": [
-          173,
-          181,
-          221,
-          247
-        ]
-      },
       "https://quotes.toscrape.com/page/3": {
         "frequency": 22,
         "positions": [
@@ -27907,12 +27197,6 @@
           81
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          178
-        ]
-      },
       "https://quotes.toscrape.com/author/E-E-Cummings": {
         "frequency": 1,
         "positions": [
@@ -27944,12 +27228,6 @@
         "positions": [
           20
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          185
-        ]
       }
     },
     "gide": {
@@ -27976,12 +27254,6 @@
         "frequency": 1,
         "positions": [
           21
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          186
         ]
       }
     },
@@ -28079,12 +27351,6 @@
         "frequency": 1,
         "positions": [
           90
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          190
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -28515,12 +27781,6 @@
         "frequency": 1,
         "positions": [
           156
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          191
         ]
       },
       "https://quotes.toscrape.com/page/3": {
@@ -28976,12 +28236,6 @@
         "positions": [
           3
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          194
-        ]
       }
     },
     "i've": {
@@ -29013,12 +28267,6 @@
         "frequency": 1,
         "positions": [
           4
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          195
         ]
       },
       "https://quotes.toscrape.com/author/Charles-M-Schulz": {
@@ -29110,12 +28358,6 @@
           5
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          196
-        ]
-      },
       "https://quotes.toscrape.com/tag/courage/page/1": {
         "frequency": 1,
         "positions": [
@@ -29204,12 +28446,6 @@
           149
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          197
-        ]
-      },
       "https://quotes.toscrape.com/author/Madeleine-LEngle": {
         "frequency": 1,
         "positions": [
@@ -29266,12 +28502,6 @@
           122
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          198
-        ]
-      },
       "https://quotes.toscrape.com/author/George-Carlin": {
         "frequency": 1,
         "positions": [
@@ -29308,12 +28538,6 @@
         "frequency": 1,
         "positions": [
           8
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          199
         ]
       },
       "https://quotes.toscrape.com/author/J-D-Salinger": {
@@ -29365,12 +28589,6 @@
         "frequency": 1,
         "positions": [
           11
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          202
         ]
       }
     },
@@ -29434,12 +28652,6 @@
         "positions": [
           101,
           137
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          203
         ]
       },
       "https://quotes.toscrape.com/author/Ernest-Hemingway": {
@@ -29596,12 +28808,6 @@
           14
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          205
-        ]
-      },
       "https://quotes.toscrape.com/author/Ralph-Waldo-Emerson": {
         "frequency": 1,
         "positions": [
@@ -29653,13 +28859,6 @@
           16,
           19
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          207,
-          210
-        ]
       }
     },
     "failure": {
@@ -29699,12 +28898,6 @@
           105
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          211
-        ]
-      },
       "https://quotes.toscrape.com/author/Pablo-Neruda": {
         "frequency": 1,
         "positions": [
@@ -29742,12 +28935,6 @@
         "positions": [
           22,
           49
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          213
         ]
       },
       "https://quotes.toscrape.com/tag/misattributed-to-mother-teresa/page/1": {
@@ -29792,12 +28979,6 @@
         "frequency": 1,
         "positions": [
           74
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          215
         ]
       },
       "https://quotes.toscrape.com/author/George-Eliot": {
@@ -29923,13 +29104,6 @@
           5,
           19,
           39
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          217,
-          246
         ]
       },
       "https://quotes.toscrape.com/tag/fantasy/page/1": {
@@ -30075,12 +29249,6 @@
           105
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          219
-        ]
-      },
       "https://quotes.toscrape.com/tag/tea/page/1": {
         "frequency": 2,
         "positions": [
@@ -30113,12 +29281,6 @@
         "frequency": 1,
         "positions": [
           6
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          220
         ]
       }
     },
@@ -30203,12 +29365,6 @@
         "frequency": 1,
         "positions": [
           381
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          222
         ]
       },
       "https://quotes.toscrape.com/tag/heartbreak/page/1": {
@@ -30391,13 +29547,6 @@
           7
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          223,
-          248
-        ]
-      },
       "https://quotes.toscrape.com/page/3": {
         "frequency": 1,
         "positions": [
@@ -30549,12 +29698,6 @@
           316
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          224
-        ]
-      },
       "https://quotes.toscrape.com/page/3": {
         "frequency": 1,
         "positions": [
@@ -30636,12 +29779,6 @@
           11
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          225
-        ]
-      },
       "https://quotes.toscrape.com/author/Ernest-Hemingway": {
         "frequency": 1,
         "positions": [
@@ -30697,12 +29834,6 @@
         "frequency": 1,
         "positions": [
           209
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          228
         ]
       },
       "https://quotes.toscrape.com/author/C-S-Lewis": {
@@ -30782,12 +29913,6 @@
           17
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          231
-        ]
-      },
       "https://quotes.toscrape.com/author/John-Lennon": {
         "frequency": 1,
         "positions": [
@@ -30806,12 +29931,6 @@
         "frequency": 1,
         "positions": [
           18
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          232
         ]
       },
       "https://quotes.toscrape.com/author/Helen-Keller": {
@@ -30853,13 +29972,6 @@
         "positions": [
           20,
           25
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          234,
-          239
         ]
       },
       "https://quotes.toscrape.com/page/6": {
@@ -30914,13 +30026,6 @@
         "positions": [
           21,
           26
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 2,
-        "positions": [
-          235,
-          240
         ]
       },
       "https://quotes.toscrape.com/page/6": {
@@ -30989,12 +30094,6 @@
         "frequency": 1,
         "positions": [
           51
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          238
         ]
       },
       "https://quotes.toscrape.com/tag/fate/page/1": {
@@ -31107,12 +30206,6 @@
         "frequency": 1,
         "positions": [
           1
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          242
         ]
       },
       "https://quotes.toscrape.com/author/C-S-Lewis": {
@@ -31258,12 +30351,6 @@
         "positions": [
           3
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          244
-        ]
       }
     },
     "night": {
@@ -31301,12 +30388,6 @@
         "frequency": 1,
         "positions": [
           31
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          249
         ]
       },
       "https://quotes.toscrape.com/author/Charles-Bukowski": {
@@ -31378,12 +30459,6 @@
           263
         ]
       },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          251
-        ]
-      },
       "https://quotes.toscrape.com/author/Jimi-Hendrix": {
         "frequency": 1,
         "positions": [
@@ -31433,12 +30508,6 @@
         "frequency": 1,
         "positions": [
           11
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          252
         ]
       },
       "https://quotes.toscrape.com/tag/books/page/2": {
@@ -31544,12 +30613,6 @@
         "positions": [
           15
         ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          256
-        ]
       }
     },
     "simile": {
@@ -31583,12 +30646,6 @@
           16,
           37,
           52
-        ]
-      },
-      "https://quotes.toscrape.com/page/1": {
-        "frequency": 1,
-        "positions": [
-          257
         ]
       },
       "https://quotes.toscrape.com/tag/drug/page/1": {
